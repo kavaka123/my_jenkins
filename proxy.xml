@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<proxy>
+  <name>www-proxy.us.oracle.com</name>
+  <port>80</port>
+  <secretPassword>{AQAAABAAAAAQD8vw4R9ISYx5A3DhXUtkStyO0HxSYVDTk3ad3d/9WSM=}</secretPassword>
+  <testUrl>https://www.wikipedia.org</testUrl>
+</proxy>
