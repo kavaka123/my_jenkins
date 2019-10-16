@@ -1,0 +1,11 @@
+version: '3'
+services:
+  jenkins:
+    image: avantaditya/my_jenkins:v1
+    ports:
+      - 8080:8080
+      - 50000:50000
+      - 443:8443
+    container_name: my_jenkins
+    volumes:
+      - $PWD/:/var/jenkins_homes
